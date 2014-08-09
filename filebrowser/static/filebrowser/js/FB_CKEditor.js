@@ -23,6 +23,6 @@ function OpenFile(fileUrl) {
 }
 
 if (CKEDITOR) {
-    CKEDITOR.config.filebrowserBrowseUrl = '/admin/filebrowser/browse?pop=3';
+    CKEDITOR.config.filebrowserBrowseUrl = '/admin/filebrowser/browse/?pop=3';
 }
 
